@@ -33,7 +33,7 @@ A Flutter alkalmazások futtatása weben szűk böngésző támogatással rendel
 
 - Webhez való fejlesztéshez a Flutter DevTools használata ajánlott, ami Chrome-al társítva még több fejlesztői eszközt eredményez.
 
-*Mind a 3 féle fejlesztés kezelhető a Flutter terminálján keresztűl.*
+*Mind a 3 féle fejlesztés kezelhető a Flutter terminálján keresztül.*
 
 ### <u>Összegzés táblázatban:</u>
 | **Platform** |    **Minimum OS**   |    **Fejlesztési eszközök**   | **Támogatott Architektúrák** |
