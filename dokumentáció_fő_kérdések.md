@@ -18,5 +18,26 @@ A Chatex a Flutter framework használatával készül Dart programozási nyelvve
 
 ## 4. A szoftver működésének mik a műszaki feltételei
 ### <u>Android:</u>
-Operációs rendszernek minimum az Android 5.0 (API 21) vagy újabbat el kell érnie.
-Flutter támogatja az arm32, arm64, és x86_64 architektúrákat.
+A telefon operációs rendszerének minimum az Android 5.0-át (API 21) vagy újabbat kell futtatnia. Emellett mind az arm32-es, arm64-es, és a x86_64-es architektúrákat kell hogy támogassa.
+
+### <u>Windows:</u>
+A gép operációs rendszerének minimum Windows 10-et (64 bit) kell futtatnia, és szükség van a Flutter projekt futtatásakor települő Windows SDK (már a Flutterel feltelepűl).
+
+### <u>Web:</u>
+A Flutter alkalmazások futtatása weben szűk böngésző támogatással rendelkeznek ezek a következők: Google Chrome (Chromium, fejlesztői eszközök), Microsoft Edge (Chromium), és a Mozilla Firefox (iOS-re való fejlesztéskor Safari is engedélyezett). A böngészőknek támogatnia kell a WebAssembly compliert, mely az alkalmazás futását hajtja végre (renderelés: CanvasKit-el, HTML-el történhet).
+
+### <u>Fejlesztői eszközök:</u>
+- Androidra való fejlesztéshez szükség van egy IDE-re, mi esetünkben az Android Studio-ra, azon belül az Android SDK-ra mellyel nem kapnánk végprogramot és hogy ezt láthatsuk egy Emulatorra (lehet fizikai eszköz is, illetve virtuális készülék).
+
+- Windowshoz ajánlott a Visual Studio használata, illetve a "Desktop development with C++" csomagot letölteni, de a csomag letöltése után mi az Android Studionál maradunk.
+
+- Webhez való fejlesztéshez a Flutter DevTools használata ajánlott, ami Chrome-al társítva még több fejlesztői eszközt eredményez.
+
+*Mind a 3 féle fejlesztés kezelhető a Flutter terminálján keresztűl.*
+
+### <u>Összegzés táblázatban:</u>
+| **Platform** |    **Minimum OS**   |    **Fejlesztési eszközök**   | **Támogatott Architektúrák** |
+|:------------:|:-------------------:|:-----------------------------:|:----------------------------:|
+|    Android   |     Android 5.0+    |  Android Studio, Android SDK  |     arm32, arm64, x86_64     |
+|    Windows   | Windows 10, 64-bit+ |   Visual Studio, Windows SDK  |            x86_64            |
+|      Web     |   Modern böngészők  | Chrome, Firefox, Edge, Safari |       WebAssembly-alapú      |
